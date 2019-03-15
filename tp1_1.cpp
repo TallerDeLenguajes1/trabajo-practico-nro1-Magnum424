@@ -20,8 +20,5 @@ int main (){
 	//Respuestas
 	//El resultado del punto 2 y 3 es el mismo debido a que "puntero" almacena la direccion de memoria de la variable "valor" y no su contenido.
 	//El resultado obtenido del punto 4 es distinto al resto dado que no se muestra lo que contiene "puntero" sino la direccion de memoria del mismo.
-
-
-
 	return;
 }
