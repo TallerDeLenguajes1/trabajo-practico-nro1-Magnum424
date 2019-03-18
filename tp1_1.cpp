@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main (){
+int main (void){
 	//Inicializo Variables
 	int valor = 10;
 	int *puntero;
