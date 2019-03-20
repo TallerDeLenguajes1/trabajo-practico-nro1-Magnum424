@@ -20,5 +20,5 @@ void Cuadrado(){
 }
 void mostrar_datos(int x){
 	printf("%d",x);
-	printf("%p",&x);
+	printf("%d",&x);
 }
