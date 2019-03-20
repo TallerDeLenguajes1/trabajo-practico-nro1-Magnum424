@@ -1,10 +1,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+int Cuadrado_int(int x);
+void Cuadrado();
+void mostrar_datos(int x);
+
 int main (void){
 	int numerito = 2;
-	Cuadrado_int(numerito);
-	return;
+	printf("%d\n",Cuadrado_int(numerito));
+	Cuadrado();
+	mostrar_datos(numerito);
+
+	return 0;
 }
 int Cuadrado_int(int x){
 	int cuadrado;
